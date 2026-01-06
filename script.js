@@ -1,6 +1,8 @@
 function createTable() {
     //Write your code here
 	const table = document.getElementById(myTable);
+
+	if (!table) return;
 	table.innerHTML = "";
 
 	const rn = prompt("Input number of rows");
